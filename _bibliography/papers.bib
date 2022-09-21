@@ -3,6 +3,23 @@
 
 @string{aps = {American Physical Society,}}
 
+@inproceedings{sanchez-cartagena-etal-2021-rethinking,
+    title = "Rethinking Data Augmentation for Low-Resource Neural Machine Translation: A Multi-Task Learning Approach",
+    author = "S{\'a}nchez-Cartagena, V{\'\i}ctor M.  and
+      Espl{\`a}-Gomis, Miquel  and
+      P{\'e}rez-Ortiz, Juan Antonio  and
+      S{\'a}nchez-Mart{\'\i}nez, Felipe",
+    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2021",
+    address = "Online and Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.emnlp-main.669",
+    doi = "10.18653/v1/2021.emnlp-main.669",
+    pages = "8502--8516",
+    abstract = "In the context of neural machine translation, data augmentation (DA) techniques may be used for generating additional training samples when the available parallel data are scarce. Many DA approaches aim at expanding the support of the empirical data distribution by generating new sentence pairs that contain infrequent words, thus making it closer to the true data distribution of parallel sentences. In this paper, we propose to follow a completely different approach and present a multi-task DA approach in which we generate new sentence pairs with transformations, such as reversing the order of the target sentence, which produce unfluent target sentences. During training, these augmented sentences are used as auxiliary tasks in a multi-task framework with the aim of providing new contexts where the target prefix is not informative enough to predict the next word. This strengthens the encoder and forces the decoder to pay more attention to the source representations of the encoder. Experiments carried out on six low-resource translation tasks show consistent improvements over the baseline and over DA methods aiming at extending the support of the empirical data distribution. The systems trained with our approach rely more on the source tokens, are more robust against domain shift and suffer less hallucinations.",
+}
+
 @book{einstein1956investigations,
   bibtex_show={true},
   title={Investigations on the Theory of the Brownian Movement},
